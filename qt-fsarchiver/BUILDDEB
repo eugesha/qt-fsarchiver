@@ -1,0 +1,9 @@
+При обновлении версии:
+git switch -c build
+cd qt-fsarchiver/
+скачать qt-fsarchiver_$(версия)~0ubuntu1~mantic.debian.tar.xz
+tar xf ../../qt-fsarchiver_1.8.7.0~0ubuntu1~mantic.debian.tar.xz
+
+сборка:
+git switch build
+dpkg-buildpackage -rfakeroot -ui -uc -B
