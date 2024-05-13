@@ -175,7 +175,7 @@
         <location filename="../src/clone.cpp" line="1625"/>
         <source>gzip-standard</source>
         <comment>gzip-standard</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">gzip-стандарт</translation>
     </message>
     <message>
         <location filename="../src/clone.cpp" line="1629"/>
@@ -778,7 +778,7 @@ entschlüsseln. Schlüssel:</comment>
         <location filename="../src/dir.cpp" line="311"/>
         <source>Enter password again</source>
         <comment>Passwort nochmals eingeben</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Заново введите пароль</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="309"/>
@@ -793,7 +793,7 @@ entschlüsseln. Schlüssel:</comment>
 </source>
         <comment>Die Passwörter stimmen nicht überein.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Не верный пароль.</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="363"/>
@@ -877,7 +877,8 @@ The file extension must be .fsa.
 </source>
         <comment>Sie haben eine falsche Wiederherstellungsdatei ausgesucht ausgesucht 
 Die Dateiendung muss .fsa sein</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Вы неправильно выбрали файл для восстановления.
+Файл образа должен иметь расширение .fsa</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="538"/>
@@ -927,7 +928,7 @@ Die Dateiendung muss .fsa sein</comment>
         <source> links were not correctly restored. The restoring of the lists was only partially successful</source>
         <comment> Links wurden nicht korrekt wiederhergestellt. Die Wiederherstellung der Verzeichnisse war nur teilweise erfolgreich
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> ссылки восстановлены некорректно. Произошло не полное восстановление</translation>
     </message>
     <message>
         <location filename="../src/dir.cpp" line="631"/>
@@ -982,7 +983,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>MBR wurde nicht gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">MBR не был сохранен. Если путь резервного копирования </translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="198"/>
@@ -999,7 +1000,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>GPT wurde nicht gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">GPT не сохранено.</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="234"/>
@@ -1205,7 +1206,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Sie müssen die MBR/GPT Sicherungsdatei auswählen.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Вы должны выбрать MBR/GPT файл</translation>
     </message>
     <message>
         <location filename="../src/mbr.cpp" line="432"/>
@@ -1422,7 +1423,7 @@ Die Dateiendung muss .fsa sein</comment>
         <location filename="../src/net.cpp" line="663"/>
         <source>Enter password again</source>
         <comment>Passwort nochmals eingeben</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Заново введите пароль</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="661"/>
@@ -1437,7 +1438,7 @@ Die Dateiendung muss .fsa sein</comment>
 </source>
         <comment>Die Passwörter stimmen nicht überein.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Неверный пароль</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="499"/>
@@ -1719,7 +1720,7 @@ entschlüsseln. Schlüssel</comment>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt gesichert.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальныйх файлов было сохранено</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1333"/>
@@ -1727,19 +1728,19 @@ entschlüsseln. Schlüssel</comment>
 </source>
         <comment>Die Partition/das Verzeichnis wurde erfolgreich wieder hergestellt.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Раздел был успешно восстановлен.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1333"/>
         <source> specials have been restored.</source>
         <comment> spezielle Daten wurden wieder hergestellt.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальных файлов было восстановлено.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1338"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальные данные и загрузочная запись раздела были восстановлены.</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1361"/>
@@ -1747,7 +1748,7 @@ entschlüsseln. Schlüssel</comment>
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
 .</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальных файлов было восстановлено</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1362"/>
@@ -1762,7 +1763,7 @@ entschlüsseln. Schlüssel</comment>
 .</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt
 .</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальные данные и загрузочная запись раздела были восстановлены</translation>
     </message>
     <message>
         <location filename="../src/net.cpp" line="1542"/>
@@ -2324,7 +2325,8 @@ setting:</source>
         <location filename="../build/ui_net.h" line="372"/>
         <source>Restore partition
 with fs-archiver</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Восстановить раздел с
+помощью fsarchiver</translation>
     </message>
     <message>
         <location filename="../src/ui/net.ui" line="163"/>
@@ -2823,7 +2825,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="775"/>
         <source>Enter password again</source>
         <comment>Passwort nochmals eingeben</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Заново введите пароль</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="773"/>
@@ -2838,7 +2840,7 @@ p, li { white-space: pre-wrap; }
 </source>
         <comment>Die Passwörter stimmen nicht überein.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Неверный пароль</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="616"/>
@@ -2936,7 +2938,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="1103"/>
         <source>Do you want to continue restore?</source>
         <comment> überein. Wollen Sie trotzdem die Wiederherstellung durchführen?</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Вы хотите продолжить восстановление?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1176"/>
@@ -2956,7 +2958,7 @@ p, li { white-space: pre-wrap; }
         <location filename="../src/mainWindow.cpp" line="2185"/>
         <source>Do you really want to break the save or restore from the partition?</source>
         <comment>Wollen Sie wirklich die Sicherung oder Wiederherstellung der Partition beenden?</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Вы действительно желаете прервать сохранение или восстановление партиции?</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1365"/>
@@ -3170,13 +3172,13 @@ version 1.8.7-0, December 15, 2023</source>
         <location filename="../src/mainWindow.cpp" line="1319"/>
         <source>The program must be run with root privileges. The program is terminated.</source>
         <comment>Das Programm muss mit Root-Rechten gestartet werden. Das Programm wird beendet.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Программа должна быть запущена с привелегиями root. Программа завершена.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1718"/>
         <source> specials and the Partition Boot Record have been restored.</source>
         <comment> spezielle Daten und der Partition Boot Sektor wurden wieder hergestellt.</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">специальные данные и загрузочная запись раздела были восстановлены.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1743"/>
@@ -3184,7 +3186,7 @@ version 1.8.7-0, December 15, 2023</source>
 .</source>
         <comment> spezielle Daten wurden wiederhergestellt
 .</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальные данные были восстановлены</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1756"/>
@@ -3192,7 +3194,7 @@ version 1.8.7-0, December 15, 2023</source>
 .</source>
         <comment> spezielle Daten wurden nicht korrekt wiederhergestellt.
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished"> специальные данные были восстановлены.</translation>
     </message>
     <message>
         <location filename="../src/mainWindow.cpp" line="1933"/>
@@ -3843,7 +3845,7 @@ with fsarchiver</source>
         <location filename="../src/ui/fsarchiverMain.ui" line="746"/>
         <location filename="../build/ui_fsarchiverMain.h" line="638"/>
         <source>Order</source>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Заказ</translation>
     </message>
     <message>
         <location filename="../src/ui/fsarchiverMain.ui" line="755"/>
@@ -3940,7 +3942,7 @@ backup key</source>
         <location filename="../src/order.cpp" line="376"/>
         <source>Note</source>
         <comment>Hinweis</comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Примечание</translation>
     </message>
     <message>
         <location filename="../src/order.cpp" line="300"/>
@@ -3955,7 +3957,7 @@ backup key</source>
 </source>
         <comment>Es werden 
 </comment>
-        <translation type="unfinished"></translation>
+        <translation type="unfinished">Удалить </translation>
     </message>
     <message>
         <location filename="../src/order.cpp" line="303"/>
