@@ -160,6 +160,8 @@ isEmpty(DOC_DIR) {
  icon.path = /usr/share/pixmaps
  autostart.files = starter/qt-fsarchiver.desktop
  autostart.path = /usr/share/applications
+ fly_desktop.files = starter/qt-fsarchiver.desktop
+ fly_desktop.path = /usr/share/fly-wm/Desktops/Desktop1
  doc.files = doc/*
  doc.path = $$DOC_DIR
 # polkit.files = src/share/polkit-1/actions/org.project.pkexec.run-qt5-fsarchiver.policy
@@ -242,4 +244,4 @@ translations.files = translations/qt-fsarchiver_de.qm \
                 translations/qt-fsarchiver_ur.qm \ 
                 translations/qt-fsarchiver_uk.qm
 translations.path = /usr/share/qt5/translations
-INSTALLS = target target1 icon autostart translations doc  # polkit
+INSTALLS = target target1 icon autostart fly_desktop translations doc  # polkit
